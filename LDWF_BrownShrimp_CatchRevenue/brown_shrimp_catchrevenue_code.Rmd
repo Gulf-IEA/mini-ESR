@@ -1,0 +1,38 @@
+---
+title: "Nekton Species Richness"
+output: html_document
+date: '2022-08-17'
+---
+#Libraries
+```{r}
+library(tidyverse)
+```
+
+#Load Data
+```{r}
+shrimp<-read.csv("Brown Shrimp Catch_Revenue.csv")
+shrimp<-pivot_longer(shrimp, cols = c(catch_milpds, revenue_mil), names_to = "metric", values_to = "value")
+
+```
+
+# Brown Shrimp Catch & Revenue
+```{r}
+#add label text
+labels<-c('catch_milpds'= "Catch\n(Millions of Pounds)",
+          'revenue_mil' = "Revenue\n(Millions of Dollars)")
+
+#plot
+ggplot(shrimp, aes(x=year, y=value))+
+  facet_wrap(~metric, switch="y",ncol = 1, labeller = labeller(metric=labels))+
+  geom_line(aes(color=metric), size=1)+
+  labs(x="Year", y=NULL, title="Barataria Bay Brown Shrimp Catch & Revenue")+
+  scale_color_manual(values=c("steelblue","navy"))+
+  scale_x_continuous(breaks = seq(2002,2016,2))+
+  theme_bw()+theme(strip.background = element_blank(),
+                   strip.text = element_text(face="bold"),
+                   legend.position = "none",
+                   strip.placement = "outside",
+                   axis.title = element_text(face="bold"),
+                   plot.title = element_text(face="bold"))
+```
+
