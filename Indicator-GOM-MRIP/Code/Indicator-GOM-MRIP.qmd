@@ -1,0 +1,59 @@
+---
+title: "IEA Indicator_MRIP"
+author: "Carissa Gervasi"
+format: html
+editor: visual
+
+---
+
+## Practice IEA GOM indicator - MRIP effort data
+
+### Step 1: pull the data from the online MRIP data query tool.
+
+The MRIP data we pulled here is effort in angler trips for each GOM state by fishing area, private/rental boats only, 1981-2021
+
+```{r}
+MRIP = read.csv("../Data/Raw/MRIP query_effort_81_21_GOM by state_private_by area.csv")
+summary(MRIP)
+```
+
+### Step 2: Summarize the data
+
+Our goal here is to plot overall fishing effort throughout the GOM over time. 
+
+```{r}
+#| message: false
+library(dplyr)
+
+MRIP.index = as.data.frame(MRIP %>% 
+  group_by(Year) %>% 
+  summarize(effort = sum(Angler.Trips)))
+
+MRIP.index$effort_mil = MRIP.index$effort/1000000
+head(MRIP.index)
+str(MRIP.index)
+
+write.csv(MRIP.index, "../Data/Output/MRIP_index.csv", row.names = F)
+```
+
+### Step 3: Plot the index
+
+We want to plot effort in angler hours over time. For simplicity, we will plot effort in million angler hours. 
+
+```{r}
+#| message: false
+library(ggplot2)
+
+ggplot(MRIP.index, aes(x=Year, y=effort_mil)) +
+  geom_point() +
+  geom_line() +
+  theme_classic() +
+  labs(x="Year", y="Recreational effort (million angler trips)") +
+  scale_x_continuous(breaks=seq(1980,2022,2)) +
+  scale_y_continuous(breaks=seq(10,40,1)) +
+  theme(axis.title.x = element_text(vjust=-2),
+        axis.title.y = element_text(vjust=5)) + 
+  theme(axis.text.x = element_text(angle=45, hjust=1)) + 
+  theme(plot.margin = unit(c(0.5,0.8,1,1), "cm"))
+```
+
