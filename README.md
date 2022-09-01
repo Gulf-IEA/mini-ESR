@@ -2,7 +2,7 @@
 toy example of collaboratively putting together an Ecosystem Status Report
 
 ## Best practices: 
-1.Start a new branch for features; in our case a new indicator
+1. Start a new branch for features; in our case a new indicator
 2. In that branch, you should only update that indicator
 3. Collaborators should not work on the same branch at the same time to avoid overlapping code or conflicts
 4. When the indicator is ready to be added, the team member responsible for it should submit a pull request
