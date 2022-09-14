@@ -23,14 +23,14 @@ Even though we study subtropical systems, we're going to look at some penguins b
 
 ## Indicator 1
 
-I wish I could actually get the temperature trends to plot, because wow - it's getting so hot!
+Here are some sea surface tempertature trends. Wow - it's getting so hot!
 
 ![](//blob/main/gom_sst_anomalies/gom_sst_anom_mth.png)
 
 ```{r}
 #| label: plot-penguins
 #| warning: false
-#| echo: true
+#| echo: false
 
 load("indicator_data/Carib_SST.RData")
 plotIndicatorTimeSeries(s, coltoplot = 1:3, plotrownum = 3, dateformat = "%m-%Y", sublabel = T, 
