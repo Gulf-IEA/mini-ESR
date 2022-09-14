@@ -1,0 +1,33 @@
+---
+title: "Random ESR report"
+format: html
+editor: visual
+---
+
+```{r}
+#| label: load-packages
+#| include: false
+
+library(tidyverse)
+library(palmerpenguins)
+library(plotTimeSeries)
+```
+
+## Introduction
+
+Here I'm going to tell you some really neat things about this ecosystem I'm working on.
+
+## Indicator 1
+
+Check out some exciting temperature trends. Wow it's getting hot!
+
+```{r}
+#| label: plot-penguins
+#| warning: false
+#| echo: false
+
+load("../indicator_data/Carib_SST.RData")
+plotIndicatorTimeSeries(s, coltoplot = 1:3, plotrownum = 3, dateformat = "%m-%Y", sublabel = T, 
+                        trendAnalysis = T, widadj = 0.5, anom = "mon", type = "allLines", outtype = "png", hgtadj = 0.8)
+
+```
