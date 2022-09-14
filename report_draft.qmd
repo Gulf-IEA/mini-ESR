@@ -17,17 +17,23 @@ library(plotTimeSeries)
 
 Here I'm going to tell you some really neat things about this ecosystem I'm working on.
 
+Even though we study subtropical systems, we're going to look at some penguins because I am failing to make any other visualization appear right now.
+
+![](https://raw.githubusercontent.com/quarto-dev/quarto-web/main/docs/get-started/hello/rstudio/lter_penguins.png)
+
 ## Indicator 1
 
 Check out some exciting temperature trends. Wow it's getting hot!
 
+![](//blob/main/gom_sst_anomalies/gom_sst_anom_mth.png)
+
 ```{r}
 #| label: plot-penguins
 #| warning: false
-#| echo: false
+#| echo: true
 
-load("../indicator_data/Carib_SST.RData")
+load("indicator_data/Carib_SST.RData")
 plotIndicatorTimeSeries(s, coltoplot = 1:3, plotrownum = 3, dateformat = "%m-%Y", sublabel = T, 
-                        trendAnalysis = T, widadj = 0.5, anom = "mon", type = "allLines", outtype = "png", hgtadj = 0.8)
+               trendAnalysis = T, widadj = 0.5, anom = "mon", type = "allLines", outtype = "png", hgtadj = 0.8)
 
 ```
