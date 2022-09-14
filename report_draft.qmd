@@ -23,7 +23,7 @@ Even though we study subtropical systems, we're going to look at some penguins b
 
 ## Indicator 1
 
-Check out some exciting temperature trends. Wow it's getting hot!
+I wish I could actually get the temperature trends to plot, because wow - it's getting so hot!
 
 ![](//blob/main/gom_sst_anomalies/gom_sst_anom_mth.png)
 
@@ -34,6 +34,6 @@ Check out some exciting temperature trends. Wow it's getting hot!
 
 load("indicator_data/Carib_SST.RData")
 plotIndicatorTimeSeries(s, coltoplot = 1:3, plotrownum = 3, dateformat = "%m-%Y", sublabel = T, 
-               trendAnalysis = T, widadj = 0.5, anom = "mon", type = "allLines", outtype = "png", hgtadj = 0.8)
+               trendAnalysis = T, widadj = 0.5, anom = "mon", type = "allLines", hgtadj = 0.8)
 
 ```
