@@ -1,8 +1,18 @@
 ---
 title: "Introduction to Openscapes"
 author: "GOM IEA Meeting<br>New Orleans, LA<br>Jan 2023"
-format: revealjs
-editor: visual
+format: 
+  revealjs:
+    theme: sky
+    preview-links: auto
+    chalkboard: 
+      boardmarker-width: 5
+from: markdown+emoji
+execute:
+  echo: true
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
-## 
+## Test
