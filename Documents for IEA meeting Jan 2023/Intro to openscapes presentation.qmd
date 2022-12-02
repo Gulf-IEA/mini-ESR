@@ -3,6 +3,7 @@ title: "Introduction to Openscapes"
 author: "GOM IEA Meeting<br>New Orleans, LA<br>Jan 2023"
 format: 
   revealjs:
+    footer: "[github.com/Gulf-IEA/mini-ESR](https://github.com/Gulf-IEA/mini-ESR)&nbsp;&nbsp;&nbsp;"
     theme: sky
     preview-links: auto
     chalkboard: 
@@ -10,9 +11,19 @@ format:
 from: markdown+emoji
 execute:
   echo: true
-editor: 
-  markdown: 
-    wrap: 72
 ---
 
-## Test
+## What is Openscapes?
+
+<br/>
+
+::: incremental
+-   **Openscapes goal:** champion open practices in environmental science to help uncover data-driven solutions faster
+-   **Engage:** build awareness and excitement about tools to do better science in less time
+-   **Empower:** build confidence and skills by connecting scientists to resources
+-   **Amplify:** build champions and communities to encourage information sharing
+:::
+
+------------------------------------------------------------------------
+
+## Text
