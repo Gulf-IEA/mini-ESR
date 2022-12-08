@@ -3,6 +3,7 @@ title: "Introduction to Openscapes"
 author: "GOM IEA Meeting<br>New Orleans, LA<br>Jan 2023"
 format: 
   revealjs:
+    footer: "[github.com/Gulf-IEA/mini-ESR](https://github.com/Gulf-IEA/mini-ESR)&nbsp;&nbsp;&nbsp;"
     theme: sky
     preview-links: auto
     chalkboard: 
@@ -10,9 +11,60 @@ format:
 from: markdown+emoji
 execute:
   echo: true
-editor: 
-  markdown: 
-    wrap: 72
 ---
 
-## Test
+## What is Openscapes?
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+::: {style="text-align: center"}
+**Openscapes goal:** champion open practices in environmental science to help uncover data-driven solutions faster
+:::
+
+---
+
+## How does it work?
+
+<br/>
+
+::: {.absolute top="10%" left="0" width="1031" height="529"}
+::: {style="text-align: center"}
+![](Intro to openscapes presentation_files/openscapes logo.png)
+:::
+:::
+
+---
+
+## Some tools that aid in open science efforts
+
+<br/>
+
+::: {.incremental}
+- **Github:** collaborative version control, project management, publishing
+- **Quarto / RMarkdown:** Analyses, figures, & text all together, can render to reporting output of choice
+
+:::
+
+---
+
+## How is GOM IEA using Openscapes?
+
+<br/>
+<br/>
+
+. . .
+
+**Problem:** Ecosystem Status Reports are complex and difficult to update
+
+<br/>
+
+. . .
+
+**Solution:** Use the Openscapes mindset and tools to build more collaborative, streamlined, and easily updated ESRs
+
+---
+
+
