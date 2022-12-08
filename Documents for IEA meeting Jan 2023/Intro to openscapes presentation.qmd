@@ -38,4 +38,33 @@ execute:
 
 ---
 
-## Text
+## Some tools that aid in open science efforts
+
+<br/>
+
+::: {.incremental}
+- **Github:** collaborative version control, project management, publishing
+- **Quarto / RMarkdown:** Analyses, figures, & text all together, can render to reporting output of choice
+
+:::
+
+---
+
+## How is GOM IEA using Openscapes?
+
+<br/>
+<br/>
+
+. . .
+
+**Problem:** Ecosystem Status Reports are complex and difficult to update
+
+<br/>
+
+. . .
+
+**Solution:** Use the Openscapes mindset and tools to build more collaborative, streamlined, and easily updated ESRs
+
+---
+
+
