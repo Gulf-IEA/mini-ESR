@@ -16,14 +16,26 @@ execute:
 ## What is Openscapes?
 
 <br/>
+<br/>
+<br/>
+<br/>
 
-::: incremental
--   **Openscapes goal:** champion open practices in environmental science to help uncover data-driven solutions faster
--   **Engage:** build awareness and excitement about tools to do better science in less time
--   **Empower:** build confidence and skills by connecting scientists to resources
--   **Amplify:** build champions and communities to encourage information sharing
+::: {style="text-align: center"}
+**Openscapes goal:** champion open practices in environmental science to help uncover data-driven solutions faster
 :::
 
-------------------------------------------------------------------------
+---
+
+## How does it work?
+
+<br/>
+
+::: {.absolute top="10%" left="0" width="1031" height="529"}
+::: {style="text-align: center"}
+![](Intro to openscapes presentation_files/openscapes logo.png)
+:::
+:::
+
+---
 
 ## Text
