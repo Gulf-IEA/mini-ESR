@@ -67,4 +67,53 @@ execute:
 
 ---
 
+## How ESRs are currently made...
+
+<br/>
+
+::: {.incremental}
+- **Data:** numerous sources, CSVs everywhere
+- **Metadata:** each researcher's responsibility
+- **Analysis:** excel and R
+- **Version control:** Final_Final_REALLY FINAL.pdf
+- **Storage:** individual computers, google drive
+- **Communication:** periodic meetings and emails
+- **Writing:** Google docs, RMarkdown sometimes
+
+:::
+
+---
+
+## How we want to improve...
+
+<br/>
+
+::: {.incremental}
+- **Data:** structured, relational databases
+- **Metadata:** unform format, stored on github
+- **Analysis:** scripts stored in one github repo
+- **Version control:** Pushes to github from R
+- **Storage:** document on Github where data are
+- **Communication:** meetings, issues on Github
+- **Writing:** Live Quarto document
+
+:::
+
+---
+
+## Challenges to overcome...
+
+<br/>
+<br/>
+
+::: {.incremental}
+- Fostering online collaborative culture (getting people to use Github)
+- Explicit best practices on collaboration and Github
+- Transerring old methods and code to Github 
+
+:::
+
+---
+
+
 
