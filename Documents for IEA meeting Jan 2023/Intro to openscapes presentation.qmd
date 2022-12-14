@@ -90,7 +90,7 @@ execute:
 
 ::: {.incremental}
 - **Data:** structured, relational databases
-- **Metadata:** unform format, stored on github
+- **Metadata:** uniform format, stored on github
 - **Analysis:** scripts stored in one github repo
 - **Version control:** Pushes to github from R
 - **Storage:** document on Github where data are
