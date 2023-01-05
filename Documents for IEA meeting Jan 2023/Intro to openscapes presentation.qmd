@@ -11,7 +11,7 @@ format:
 from: markdown+emoji
 execute:
   echo: true
-output-file: ../docs/intro_pres.html  
+output-file: ../docs/intro_pres.html 
 ---
 
 ## What is Openscapes?
