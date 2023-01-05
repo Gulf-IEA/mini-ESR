@@ -3,14 +3,14 @@ title: "Introduction to Openscapes"
 author: "GOM IEA Meeting<br>New Orleans, LA<br>Jan 2023"
 format: 
   revealjs:
+    embed-resources: true
     footer: "[github.com/Gulf-IEA/mini-ESR](https://github.com/Gulf-IEA/mini-ESR)&nbsp;&nbsp;&nbsp;"
     theme: sky
     preview-links: auto
-    chalkboard: 
-      boardmarker-width: 5
 from: markdown+emoji
 execute:
   echo: true
+output-dir: ../docs/intro_pres3.html
    
 ---
 
