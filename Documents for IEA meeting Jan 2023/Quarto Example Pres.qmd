@@ -1,0 +1,222 @@
+---
+title: "Quarto Example Pres"
+author: "GOM IEA Meeting<br>New Orleans, LA<br>Jan 2023"
+format: 
+  revealjs:
+    footer: "[github.com/Gulf-IEA/mini-ESR](https://github.com/Gulf-IEA/mini-ESR)&nbsp;&nbsp;&nbsp;"
+    theme: sky
+    preview-links: auto
+    chalkboard: 
+      boardmarker-width: 5
+from: markdown+emoji
+execute:
+  echo: true
+---
+
+# GitHub
+
+## What is GitHub?
+
+::: {style="text-align:center"}
+</br>
+
+**Git** is software that does file versions and bookkeeping.
+
+![](Quarto%20Example%20Pres_files/git_logo.png){fig-align="center" width="250"}
+
+**GitHub** is an online collaborative platform using Git
+
+![](Quarto%20Example%20Pres_files/GitHub_logo.png){fig-align="center" width="250"}
+:::
+
+## How is GitHub Organized?
+
+::: columns
+::: {.column width="50%"}
+**Users:** Each person makes their own GitHub account
+
+-   NOAA naming convention is FirstLast-NOAA (i.e. BrittanyTroast-NOAA)
+
+![](Quarto%20Example%20Pres_files/GitHub_personal.png){fig-align="center" width="200"}
+:::
+
+::: {.column .fragment width="50%"}
+**Organizations:** Individual accounts can be added to organizations for collaborative projects
+
+-   Acts like a personal account that some or all members can control (can alter permissions)
+
+![](Quarto%20Example%20Pres_files/GitHub_Orgs.png){fig-align="center" width="300"}
+:::
+:::
+
+## How is GitHub organized?
+
+::: columns
+::: {.column width="50%"}
+**Repos (Repositories)**
+
+-   Folders that contain files like data, code, reports, images, formatting files, read me etc.
+
+-   Can be in a personal account or in an organization's account
+:::
+
+::: {.column width="50%"}
+</br>
+
+![](Quarto%20Example%20Pres_files/GitHub_repos.png){fig-align="center" width="450"}
+:::
+:::
+
+## How is GitHub organized?
+
+::: columns
+::: {.column width="50%"}
+**Commits & Issues**
+
+-   Commits are how someone edits or changes the files in the repo
+
+-   Each new commit is tracked so that previous versions can be accessed
+:::
+
+::: {.column width="50%"}
+![](Quarto%20Example%20Pres_files/GitHub_commit.png){fig-align="center"}
+:::
+:::
+
+## GitHub Project Management
+
+::: columns
+::: {.column width="50%"}
+Issues (Discussion thread)
+
+![](Quarto%20Example%20Pres_files/GitHub_issues.png){fig-align="center" width="630"}
+:::
+
+::: {.column .fragment width="50%"}
+Projects
+
+![](Quarto%20Example%20Pres_files/GitHub_project.png){fig-align="center" width="754"}
+:::
+:::
+
+## Publishing Platform
+
+::: columns
+::: {.column width="50%"}
+Publish Websites
+
+-   Use templates to quickly make websites hosted by GitHub
+
+![](Quarto%20Example%20Pres_files/GitHub_Website.png){fig-align="center"}
+:::
+
+::: {.column .fragment width="50%"}
+Automatically update reports/websites for up-to-date results
+
+-   <!--# Add Brendan sample report here -->
+:::
+:::
+
+# Quarto
+
+## What is Quarto?
+
+::: {style="text-align: center"}
+**Quarto** is a file format (.qmd) that is the next evolution to R Markdown files.
+
+Allows you to create, convert, and publish **documents**, **presentations**, **websites**, **books** and more.
+
+![](Quarto%20Example%20Pres_files/Quarto_NewDoc.png){fig-align="center" width="450"}
+:::
+
+## How does Quarto work?
+
+::: {style="text-align: center"}
+Allows you to switch between **Source** and Visual view while creating
+
+![](Quarto%20Example%20Pres_files/Quarto_source.png){fig-align="center"}
+:::
+
+## How does Quarto work?
+
+::: {style="text-align: center"}
+Allows you to switch between Source and **Visual** view while creating
+
+![](Quarto%20Example%20Pres_files/Quarto_visual.png){fig-align="center"}
+:::
+
+## Enhances Reproducibility & Collaboration
+
+<div>
+
+-   Update reports/documents/presentations by rerunning code with new data or automating data retrieval
+
+-   Host newest versions of reports on GitHub immediately with same link so always receiving updated version
+
+-   Built in version control
+
+-   Organization members can submit edits easily in GitHub and can be reviewed by other members
+
+<!--# Add in CFI link here -->
+
+</div>
+
+# Discussion Questions
+
+## 
+
+::: {style="text-align: center"}
+What are the barriers for you and your colleagues to adopt this workflow?
+:::
+
+. . .
+
+::: {style="text-align: center"}
+What are some solutions to these barriers?
+:::
+
+## 
+
+::: {style="text-align: center"}
+How do we organize our workflow to make it more cohesive across groups and projects?
+:::
+
+</br>
+
+::: columns
+::: {.column width="50%"}
+### Data
+
+-   How do we make acquiring data easier?
+
+-   How do you make processing data easier?
+:::
+
+::: {.column .fragment width="50%"}
+### Analysis/Reports {.column width="50%"}
+:::
+:::
+
+## 
+
+### How often do we need to have meetings?
+
+-   After certain milestones are achieved or previous meetings action items are completed?
+
+    -   Discuss smaller tasks through GitHub Issues tracker to avoid chain emails and speed up process without having to call larger meeting while still having full group involved.
+
+-   Standing meetings vs. as needed meetings?
+
+    -   Call a meeting once tasks are marked completed in GitHub to move on to next major milestone
+
+## 
+
+### How can we make meetings more productive/effective?
+
+-   Standing working meetings
+
+    -   Start the meeting with updates/new tasks
+
+    -   Spend time working on tasks in the call semi-independently
+
+    -   End call with updates, new action items etc.
