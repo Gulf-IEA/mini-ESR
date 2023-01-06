@@ -10,22 +10,18 @@ format:
 from: markdown+emoji
 execute:
   echo: true
-output-file: ../docs/index.html
-   
+output-file: ../docs/index.qmd
 ---
 
 ## What is Openscapes?
 
-<br/>
-<br/>
-<br/>
-<br/>
+<br/> <br/> <br/> <br/>
 
 ::: {style="text-align: center"}
 **Openscapes goal:** champion open practices in environmental science to help uncover data-driven solutions faster
 :::
 
----
+------------------------------------------------------------------------
 
 ## How does it work?
 
@@ -33,28 +29,26 @@ output-file: ../docs/index.html
 
 ::: {.absolute top="10%" left="0" width="1031" height="529"}
 ::: {style="text-align: center"}
-![](Intro to openscapes presentation_files/openscapes logo.png)
+![](Intro%20to%20openscapes%20presentation_files/openscapes%20logo.png)
 :::
 :::
 
----
+------------------------------------------------------------------------
 
 ## Some tools that aid in open science efforts
 
 <br/>
 
-::: {.incremental}
-- **Github:** collaborative version control, project management, publishing
-- **Quarto / RMarkdown:** Analyses, figures, & text all together, can render to reporting output of choice
-
+::: incremental
+-   **Github:** collaborative version control, project management, publishing
+-   **Quarto / RMarkdown:** Analyses, figures, & text all together, can render to reporting output of choice
 :::
 
----
+------------------------------------------------------------------------
 
 ## How is GOM IEA using Openscapes?
 
-<br/>
-<br/>
+<br/> <br/>
 
 . . .
 
@@ -66,55 +60,48 @@ output-file: ../docs/index.html
 
 **Solution:** Use the Openscapes mindset and tools to build more collaborative, streamlined, and easily updated ESRs
 
----
+------------------------------------------------------------------------
 
 ## How ESRs are currently made...
 
 <br/>
 
-::: {.incremental}
-- **Data:** numerous sources, CSVs everywhere
-- **Metadata:** each researcher's responsibility
-- **Analysis:** excel and R
-- **Version control:** Final_Final_REALLY FINAL.pdf
-- **Storage:** individual computers, google drive
-- **Communication:** periodic meetings and emails
-- **Writing:** Google docs, RMarkdown sometimes
-
+::: incremental
+-   **Data:** numerous sources, CSVs everywhere
+-   **Metadata:** each researcher's responsibility
+-   **Analysis:** excel and R
+-   **Version control:** Final_Final_REALLY FINAL.pdf
+-   **Storage:** individual computers, google drive
+-   **Communication:** periodic meetings and emails
+-   **Writing:** Google docs, RMarkdown sometimes
 :::
 
----
+------------------------------------------------------------------------
 
 ## How we want to improve...
 
 <br/>
 
-::: {.incremental}
-- **Data:** structured, relational databases
-- **Metadata:** uniform format, stored on github
-- **Analysis:** scripts stored in one github repo
-- **Version control:** Pushes to github from R
-- **Storage:** document on Github where data are
-- **Communication:** meetings, issues on Github
-- **Writing:** Live Quarto document
-
+::: incremental
+-   **Data:** structured, relational databases
+-   **Metadata:** uniform format, stored on github
+-   **Analysis:** scripts stored in one github repo
+-   **Version control:** Pushes to github from R
+-   **Storage:** document on Github where data are
+-   **Communication:** meetings, issues on Github
+-   **Writing:** Live Quarto document
 :::
 
----
+------------------------------------------------------------------------
 
 ## Challenges to overcome...
 
-<br/>
-<br/>
+<br/> <br/>
 
-::: {.incremental}
-- Fostering online collaborative culture (getting people to use Github)
-- Explicit best practices on collaboration and Github
-- Transerring old methods and code to Github 
-
+::: incremental
+-   Fostering online collaborative culture (getting people to use Github)
+-   Explicit best practices on collaboration and Github
+-   Transerring old methods and code to Github
 :::
 
----
-
-
-
+------------------------------------------------------------------------
