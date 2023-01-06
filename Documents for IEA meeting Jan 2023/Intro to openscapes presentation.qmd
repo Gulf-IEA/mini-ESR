@@ -10,7 +10,7 @@ format:
 from: markdown+emoji
 execute:
   echo: true
-#output-file: ../docs/intro_pres3.html
+output-file: ../docs/index.html
    
 ---
 
