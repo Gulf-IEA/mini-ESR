@@ -10,7 +10,7 @@ format:
 from: markdown+emoji
 execute:
   echo: true
-output-file: ../docs/index.qmd
+output-file: ../docs/index.md
 ---
 
 ## What is Openscapes?
