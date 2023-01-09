@@ -1,11 +1,12 @@
 ---
-title: "Quarto Example Pres"
+title: "Tools for Collaboration & Reproducibility"
 author: "GOM IEA Meeting<br>New Orleans, LA<br>Jan 2023"
 format: 
   revealjs:
     footer: "[github.com/Gulf-IEA/mini-ESR](https://github.com/Gulf-IEA/mini-ESR)&nbsp;&nbsp;&nbsp;"
     theme: sky
-    preview-links: auto
+    preview-links: true
+    slide-number: true
     chalkboard: 
       boardmarker-width: 5
 from: markdown+emoji
@@ -14,6 +15,16 @@ execute:
 ---
 
 # GitHub
+
+::: notes
+-   Today we will be covering GitHub and Quarto to demonstrate how these tools can be used to enhance your workflow with collaboration and reproducibility in mind.
+
+-   Question: Who has used or has some experience with GitHub and/or Quarto/RMarkdown?
+
+-   Disclaimer: I'm going to go through some of the parts of GitHub and Quarto. It may be overwhelming but I want you to realize what tools are out there that we can utilize.
+
+-   The goal of this presentation is to just make everyone aware of these tools, what they can do, and act as a jumping off point to your own research.
+:::
 
 ## What is GitHub?
 
@@ -67,36 +78,71 @@ execute:
 :::
 :::
 
-## How is GitHub organized?
+## GitHub: Projects
 
 ::: columns
 ::: {.column width="50%"}
-**Commits & Issues**
-
--   Commits are how someone edits or changes the files in the repo
-
--   Each new commit is tracked so that previous versions can be accessed
+-   Customize lists
+-   Assign tasks to people
+-   Add due dates
+-   Link issue threads
+-   Categorize with milestones
 :::
 
 ::: {.column width="50%"}
-![](Quarto%20Example%20Pres_files/GitHub_commit.png){fig-align="center"}
+![](Quarto%20Example%20Pres_files/GitHub_project.png){fig-align="center" width="850"}
 :::
 :::
 
-## GitHub Project Management
+::: notes
+-   To Do, In Progress, Finished
+
+-   Short term, Long term, Complete
+:::
+
+## GitHub: Issues (Discussion Thread)
 
 ::: columns
 ::: {.column width="50%"}
-Issues (Discussion thread)
-
-![](Quarto%20Example%20Pres_files/GitHub_issues.png){fig-align="center" width="630"}
+![](Quarto%20Example%20Pres_files/GitHub_issuelist.png){.absolute left="0" width="450"}
 :::
 
-::: {.column .fragment width="50%"}
-Projects
-
-![](Quarto%20Example%20Pres_files/GitHub_project.png){fig-align="center" width="754"}
+::: {.column width="50%"}
+-   Any member can create a new issue
+-   Issues can be searched and categorized
+-   Can close issues once a resolution is reached
 :::
+:::
+
+::: notes
+-   Creates historical account of past issues and solutions which can be referenced moving forward
+
+-   Allows for easier reproducibility for searching past issues without reinventing the wheel
+:::
+
+## GitHub: Issues (Discussion Thread)
+
+::: columns
+::: {.column width="50%"}
+![](Quarto%20Example%20Pres_files/GitHub_issues.png){width="630"}
+:::
+
+::: {.column width="50%"}
+-   Can tag/assign to people within the thread
+
+-   Timeline of actions included in thread
+
+-   Notifications go to those tagged or whoever has notifications on
+
+-   Can add to projects
+:::
+:::
+
+::: notes
+-   Set your notification preferences by email & frequency, different threads per project
+-   Will alleviate long email threads
+-   Allows certain people to be working on a part of the project without pulling everyone in but still allowing others to see and track the progress
+-   All very interconnected
 :::
 
 ## Publishing Platform
@@ -113,7 +159,31 @@ Publish Websites
 ::: {.column .fragment width="50%"}
 Automatically update reports/websites for up-to-date results
 
--   <!--# Add Brendan sample report here -->
+</br>
+
+[West Florida Shelf Bulletin](https://gulf-iea.github.io/WFS_bulletins/)
+
+##### by Brendan Turley
+:::
+:::
+
+::: notes
+-   Can even add some of these GitHub features into these bulletins (i.e. report an issue link at bottom)
+:::
+
+## How is GitHub organized?
+
+::: columns
+::: {.column width="50%"}
+**Commits**
+
+-   Commits are how someone edits or changes the files in the repo
+
+-   Each new commit is tracked so that previous versions can be accessed
+:::
+
+::: {.column width="50%"}
+![](Quarto%20Example%20Pres_files/GitHub_commit.png){fig-align="center"}
 :::
 :::
 
@@ -157,50 +227,87 @@ Allows you to switch between Source and **Visual** view while creating
 
 -   Organization members can submit edits easily in GitHub and can be reviewed by other members
 
-<!--# Add in CFI link here -->
-
 </div>
+
+## Examples
+
+-   Formats are not only useful for final products (websites, papers, etc.) but also for sharing code and results while working through a project
+
+    ::: {style="text-align: center"}
+    <div>
+
+    </br>
+
+    </br>
+
+    [CFI Example](https://htmlpreview.github.io/?https://github.com/BrittanyTroast-NOAA/Testing/blob/main/CFI_Simple.html)
+
+    </div>
+    :::
+
+::: notes
+-   Updating a google doc with new results, figures, code everytime I updated would be time consuming
+
+-   Because this is created within R Studio and works seamlessly with code I can just update the code within the file, rerun it and push it to the GitHub and tell people to check the link
+
+-   Also offers a more organized format for both those familiar and unfamiliar with code etc.
+:::
 
 # Discussion Questions
 
 ## 
 
+::: {style="text-align:center"}
+</br></br></br>
+
+If you are already using these tools (or similar) what do you find works best and would be most useful to the work we are doing?
+:::
+
+## 
+
 ::: {style="text-align: center"}
+::: {style="text-align: center"}
+</br></br>
+:::
+
 What are the barriers for you and your colleagues to adopt this workflow?
 :::
 
 . . .
 
 ::: {style="text-align: center"}
+</br>
+
+</br>
+
 What are some solutions to these barriers?
 :::
 
 ## 
 
 ::: {style="text-align: center"}
+::: {style="text-align: center"}
+</br></br></br>
+:::
+
 How do we organize our workflow to make it more cohesive across groups and projects?
 :::
 
-</br>
-
-::: columns
-::: {.column width="50%"}
-### Data
-
+::: notes
 -   How do we make acquiring data easier?
 
 -   How do you make processing data easier?
 :::
 
-::: {.column .fragment width="50%"}
-### Analysis/Reports {.column width="50%"}
-:::
-:::
-
 ## 
 
-### How often do we need to have meetings?
+::: {style="text-align: center"}
+</br></br></br>
 
+How can we make our meetings more efficient?
+:::
+
+::: notes
 -   After certain milestones are achieved or previous meetings action items are completed?
 
     -   Discuss smaller tasks through GitHub Issues tracker to avoid chain emails and speed up process without having to call larger meeting while still having full group involved.
@@ -209,10 +316,6 @@ How do we organize our workflow to make it more cohesive across groups and proje
 
     -   Call a meeting once tasks are marked completed in GitHub to move on to next major milestone
 
-## 
-
-### How can we make meetings more productive/effective?
-
 -   Standing working meetings
 
     -   Start the meeting with updates/new tasks
@@ -220,3 +323,4 @@ How do we organize our workflow to make it more cohesive across groups and proje
     -   Spend time working on tasks in the call semi-independently
 
     -   End call with updates, new action items etc.
+:::

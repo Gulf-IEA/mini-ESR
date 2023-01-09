@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.1.189">
 
   <meta name="author" content="GOM IEA Meeting New Orleans, LA Jan 2023">
-  <title>Quarto Example Pres</title>
+  <title>Tools for Collaboration &amp; Reproducibility</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -326,14 +326,31 @@
     <div class="slides">
 
 <section id="title-slide" class="center">
-  <h1 class="title">Quarto Example Pres</h1>
+  <h1 class="title">Tools for Collaboration &amp; Reproducibility</h1>
   <p class="author">GOM IEA Meeting<br>New Orleans, LA<br>Jan 2023</p>
 </section>
 
 <section>
 <section id="github" class="title-slide slide level1 center">
 <h1>GitHub</h1>
-
+<aside class="notes">
+<ul>
+<li><p>Today we will be covering GitHub and Quarto to demonstrate how these tools can be used to enhance your workflow with collaboration and reproducibility in mind.</p></li>
+<li><p>Question: Who has used or has some experience with GitHub and/or Quarto/RMarkdown?</p></li>
+<li><p>Disclaimer: I’m going to go through some of the parts of GitHub and Quarto. It may be overwhelming but I want you to realize what tools are out there that we can utilize.</p></li>
+<li><p>The goal of this presentation is to just make everyone aware of these tools, what they can do, and act as a jumping off point to your own research.</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="what-is-github" class="slide level2">
 <h2>What is GitHub?</h2>
@@ -398,43 +415,104 @@
 </div>
 </div>
 </section>
-<section id="how-is-github-organized-2" class="slide level2">
-<h2>How is GitHub organized?</h2>
+<section id="github-projects" class="slide level2">
+<h2>GitHub: Projects</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><strong>Commits &amp; Issues</strong></p>
 <ul>
-<li><p>Commits are how someone edits or changes the files in the repo</p></li>
-<li><p>Each new commit is tracked so that previous versions can be accessed</p></li>
+<li>Customize lists</li>
+<li>Assign tasks to people</li>
+<li>Add due dates</li>
+<li>Link issue threads</li>
+<li>Categorize with milestones</li>
 </ul>
 </div><div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="Quarto%20Example%20Pres_files/GitHub_commit.png"></p>
+<p><img data-src="Quarto%20Example%20Pres_files/GitHub_project.png" width="850"></p>
 </figure>
 </div>
 </div>
 </div>
+<aside class="notes">
+<ul>
+<li><p>To Do, In Progress, Finished</p></li>
+<li><p>Short term, Long term, Complete</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="github-project-management" class="slide level2">
-<h2>GitHub Project Management</h2>
+<section id="github-issues-discussion-thread" class="slide level2">
+<h2>GitHub: Issues (Discussion Thread)</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p>Issues (Discussion thread)</p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
+<p><img data-src="Quarto%20Example%20Pres_files/GitHub_issuelist.png" class="absolute" style="left: 0px; width: 450px; "></p>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>Any member can create a new issue</li>
+<li>Issues can be searched and categorized</li>
+<li>Can close issues once a resolution is reached</li>
+</ul>
+</div>
+</div>
+<aside class="notes">
+<ul>
+<li><p>Creates historical account of past issues and solutions which can be referenced moving forward</p></li>
+<li><p>Allows for easier reproducibility for searching past issues without reinventing the wheel</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="github-issues-discussion-thread-1" class="slide level2">
+<h2>GitHub: Issues (Discussion Thread)</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <p><img data-src="Quarto%20Example%20Pres_files/GitHub_issues.png" width="630"></p>
-</figure>
-</div>
-</div><div class="column fragment" style="width:50%;">
-<p>Projects</p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="Quarto%20Example%20Pres_files/GitHub_project.png" width="754"></p>
-</figure>
-</div>
+</div><div class="column" style="width:50%;">
+<ul>
+<li><p>Can tag/assign to people within the thread</p></li>
+<li><p>Timeline of actions included in thread</p></li>
+<li><p>Notifications go to those tagged or whoever has notifications on</p></li>
+<li><p>Can add to projects</p></li>
+</ul>
 </div>
 </div>
+<aside class="notes">
+<ul>
+<li>Set your notification preferences by email &amp; frequency, different threads per project</li>
+<li>Will alleviate long email threads</li>
+<li>Allows certain people to be working on a part of the project without pulling everyone in but still allowing others to see and track the progress</li>
+<li>All very interconnected</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="publishing-platform" class="slide level2">
 <h2>Publishing Platform</h2>
@@ -451,9 +529,42 @@
 </div>
 </div><div class="column fragment" style="width:50%;">
 <p>Automatically update reports/websites for up-to-date results</p>
+<p><br></p>
+<p><a href="https://gulf-iea.github.io/WFS_bulletins/">West Florida Shelf Bulletin</a></p>
+<h5 id="by-brendan-turley">by Brendan Turley</h5>
+</div>
+</div>
+<aside class="notes">
 <ul>
-<li><!--# Add Brendan sample report here --></li>
+<li>Can even add some of these GitHub features into these bulletins (i.e.&nbsp;report an issue link at bottom)</li>
 </ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="how-is-github-organized-2" class="slide level2">
+<h2>How is GitHub organized?</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Commits</strong></p>
+<ul>
+<li><p>Commits are how someone edits or changes the files in the repo</p></li>
+<li><p>Each new commit is tracked so that previous versions can be accessed</p></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="Quarto%20Example%20Pres_files/GitHub_commit.png"></p>
+</figure>
+</div>
 </div>
 </div>
 </section></section>
@@ -505,8 +616,37 @@
 <li><p>Built in version control</p></li>
 <li><p>Organization members can submit edits easily in GitHub and can be reviewed by other members</p></li>
 </ul>
-<!--# Add in CFI link here -->
 </div>
+</section>
+<section id="examples" class="slide level2">
+<h2>Examples</h2>
+<ul>
+<li><p>Formats are not only useful for final products (websites, papers, etc.) but also for sharing code and results while working through a project</p>
+<div style="text-align: center">
+<div>
+<p><br></p>
+<p><br></p>
+<p><a href="https://htmlpreview.github.io/?https://github.com/BrittanyTroast-NOAA/Testing/blob/main/CFI_Simple.html">CFI Example</a></p>
+</div>
+</div></li>
+</ul>
+<aside class="notes">
+<ul>
+<li><p>Updating a google doc with new results, figures, code everytime I updated would be time consuming</p></li>
+<li><p>Because this is created within R Studio and works seamlessly with code I can just update the code within the file, rerun it and push it to the GitHub and tell people to check the link</p></li>
+<li><p>Also offers a more organized format for both those familiar and unfamiliar with code etc.</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section></section>
 <section>
 <section id="discussion-questions" class="title-slide slide level1 center">
@@ -515,37 +655,59 @@
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
-<div style="text-align: center">
-<p>What are the barriers for you and your colleagues to adopt this workflow?</p>
-</div>
-<div class="fragment">
-<div style="text-align: center">
-<p>What are some solutions to these barriers?</p>
-</div>
+<div style="text-align:center">
+<p><br><br><br></p>
+<p>If you are already using these tools (or similar) what do you find works best and would be most useful to the work we are doing?</p>
 </div>
 </section>
 <section id="section-1" class="slide level2">
 <h2></h2>
 <div style="text-align: center">
-<p>How do we organize our workflow to make it more cohesive across groups and projects?</p>
+<div style="text-align: center">
+<p><br><br></p>
 </div>
+<p>What are the barriers for you and your colleagues to adopt this workflow?</p>
+</div>
+<div class="fragment">
+<div style="text-align: center">
 <p><br></p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="data">Data</h3>
-<ul>
-<li><p>How do we make acquiring data easier?</p></li>
-<li><p>How do you make processing data easier?</p></li>
-</ul>
-</div><div class="column fragment" style="width:50%;">
-<!-- -->
-<h3 class="column" width="50%" id="analysisreports">Analysis/Reports</h3>
+<p><br></p>
+<p>What are some solutions to these barriers?</p>
 </div>
 </div>
 </section>
 <section id="section-2" class="slide level2">
 <h2></h2>
-<h3 id="how-often-do-we-need-to-have-meetings">How often do we need to have meetings?</h3>
+<div style="text-align: center">
+<div style="text-align: center">
+<p><br><br><br></p>
+</div>
+<p>How do we organize our workflow to make it more cohesive across groups and projects?</p>
+</div>
+<aside class="notes">
+<ul>
+<li><p>How do we make acquiring data easier?</p></li>
+<li><p>How do you make processing data easier?</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section-3" class="slide level2">
+<h2></h2>
+<div style="text-align: center">
+<p><br><br><br></p>
+<p>How can we make our meetings more efficient?</p>
+</div>
+<aside class="notes">
 <ul>
 <li><p>After certain milestones are achieved or previous meetings action items are completed?</p>
 <ul>
@@ -555,12 +717,6 @@
 <ul>
 <li>Call a meeting once tasks are marked completed in GitHub to move on to next major milestone</li>
 </ul></li>
-</ul>
-</section>
-<section id="section-3" class="slide level2">
-<h2></h2>
-<h3 id="how-can-we-make-meetings-more-productiveeffective">How can we make meetings more productive/effective?</h3>
-<ul>
 <li><p>Standing working meetings</p>
 <ul>
 <li><p>Start the meeting with updates/new tasks</p></li>
@@ -568,6 +724,17 @@
 <li><p>End call with updates, new action items etc.</p></li>
 </ul></li>
 </ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 <div class="footer footer-default">
 <p><a href="https://github.com/Gulf-IEA/mini-ESR">github.com/Gulf-IEA/mini-ESR</a>&nbsp;&nbsp;&nbsp;</p>
 </div>
@@ -598,7 +765,7 @@
       // https://revealjs.com/config/
       Reveal.initialize({
 'controlsAuto': true,
-'previewLinksAuto': true,
+'previewLinksAuto': false,
 'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
@@ -626,7 +793,7 @@
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: false,
+        slideNumber: 'c/t',
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -728,7 +895,7 @@
         hideCursorTime: 5000,
 
         // Opens links in an iframe preview overlay
-        previewLinks: false,
+        previewLinks: true,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
         transition: 'none',
