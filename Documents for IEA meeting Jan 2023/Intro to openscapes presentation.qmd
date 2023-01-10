@@ -10,7 +10,7 @@ format:
 from: markdown+emoji
 execute:
   echo: true
-output-file: ../docs/index.md
+#output-file: ../docs/index.md
 ---
 
 ## What is Openscapes?
@@ -23,15 +23,13 @@ output-file: ../docs/index.md
 
 ------------------------------------------------------------------------
 
-## How does it work?
+## How does<br>it work?
 
 <br/>
 
-::: {.absolute top="10%" left="0" width="1031" height="529"}
-::: {style="text-align: center"}
-![](Intro%20to%20openscapes%20presentation_files/openscapes%20logo.png)
-:::
-:::
+![](Intro to openscapes presentation_files/openscapeshex.png){.absolute top="170" left="30" width="200" height="200"}
+
+![](Intro to openscapes presentation_files/mindset.jpg){.absolute .fragment top="2" right="1" width="700" height="700"}
 
 ------------------------------------------------------------------------
 
