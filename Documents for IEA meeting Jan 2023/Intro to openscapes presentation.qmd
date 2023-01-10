@@ -11,6 +11,7 @@ from: markdown+emoji
 execute:
   echo: true
 #output-file: ../docs/index.md
+self-contained: true
 ---
 
 ## What is Openscapes?
