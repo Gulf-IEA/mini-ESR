@@ -7,11 +7,10 @@ format:
     theme: sky
     preview-links: true
     slide-number: true
-    chalkboard: 
-      boardmarker-width: 5
 from: markdown+emoji
 execute:
   echo: true
+self-contained: true
 ---
 
 # GitHub
