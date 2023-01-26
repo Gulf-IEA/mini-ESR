@@ -10,7 +10,7 @@ format:
 from: markdown+emoji
 execute:
   echo: true
-self-contained: true
+# self-contained: true
 ---
 
 # GitHub
@@ -168,6 +168,8 @@ Automatically update reports/websites for up-to-date results
 
 ::: notes
 -   Can even add some of these GitHub features into these bulletins (i.e. report an issue link at bottom)
+-   During our discussions yesterday we mentioned how we need better products that are more likely to be used by end users
+-   Websites were identified as more useful and this could be a good compromise
 :::
 
 ## How is GitHub organized?
